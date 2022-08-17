@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Cacti Product Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+          <a href="#header"><img src="https://i.imgur.com/s9fxsQ8.png" id="header-img" alt="Logo with a cactus on it"></a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </header>
+      <main>
+        <div id="about">
+          <h1>About Us</h1>
+          <div id="videok"><iframe id="video" src="https://www.youtube.com/embed/kyz8Dob5RgA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <p>Bejo Cacti Co. is a family-based cacti nursery based in Budapest. We are dedicated to growing a wide variety of cacti and are constantly adding, developing, and creating more products.</p>   
+        </div>
+        <div id="pricing">
+          <h1>Pricing</h1>
+          <div class="column"><div class="card">
+        <img src="https://res.cloudinary.com/patch-gardens/image/upload/c_fill,f_auto,h_840,q_auto:good,w_840/v1595250869/wl8maa0zzpf8bugjibv3.jpg" alt="Small cactus" style="width:100%">
+        <div class="container">
+          <h4>Small Cactus</h4>
+          <p>Cactus in a small (8cm) pot.</p>
+          <p><b>700 HUF</b></p>
+        </div>
+      </div></div>
+        <div class="column"><div class="card">
+        <img src="https://cdn.shopify.com/s/files/1/0013/3529/6118/products/Nursery-Pot-10_Cereus-Cactus-10.jpg?v=1612278036" alt="Medium cactus" style="width:100%">
+        <div class="container">
+          <h3>Medium Cactus</h3>
+          <p>Cactus in a medium (15cm) pot.</p>
+          <p><b>1500 HUF</b></p>
+        </div>
+      </div></div>
+        <div class="column"><div class="card">
+        <img src="https://cb2.scene7.com/is/image/CB2/PottedCactus60inSHS17/$web_zoom$/190905021908/potted-60-cactus.jpg" alt="Large cactus" style="width:100%">
+        <div class="container">
+          <h3>Large Cactus</h3>
+          <p>Cactus in a large (25cm) pot.</p>
+          <p><b>2300 HUF</b></p>
+        </div>
+      </div></div>
+        </div>
+        <div id="contact">
+          <h1>Contact</h1>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="text" id="fname" name="fname" placeholder="First name"/>
+            <input type="text" id="lname" name="lname" placeholder="Last name"/>
+            <input type="email" id="email" name="email" placeholder="Email"/>
+            <input type="tel" id="tel" name="tel" placeholder="Telephone number"/>
+            <input type="number" id="chooses" name="chooses" placeholder="Size S cactus quantity" min="0" max="10"/>
+            <input type="number" id="choosem" name="choosem" placeholder="Size M cactus quantity" min="0" max="10"/>
+            <input type="number" id="choosel" name="choosel" placeholder="Size L cactus quantity" min="0" max="10"/>
+            <input type="submit" id="submit" value="Submit"/>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <p>Made by Bejó Dávid</p>
+        <p>2021</p>
+      </footer>
+</body>
+</html>
